@@ -16,6 +16,7 @@ class CrudExampleSeeder extends Seeder
      */
     public function run()
     {
+        
         $data = [];
         $faker = \Faker\Factory::create('id_ID');
         $options = array_values(get_options());
